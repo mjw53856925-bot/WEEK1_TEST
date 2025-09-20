@@ -12,7 +12,7 @@ def dfs(graph, x, y, n, m):
         dfs(graph, x, y + 1, n, m)
         return True 
     
-    return False
+
 
 def q2():
     
@@ -46,5 +46,6 @@ def q2():
                 ice_creams += 1
                 
     print(ice_creams)
+
 
 q2()
